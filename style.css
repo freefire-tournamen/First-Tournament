@@ -1,0 +1,212 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #0a0a0a;
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: url('new.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #f5f5f5;
+}
+  
+header {
+    background: linear-gradient(to right, #1c1c1c, #121212);
+    padding: 1.5em;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(255, 77, 0, 0.5);
+}
+  
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #ff4d00;
+}
+  
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+  
+nav a {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+  
+nav a:hover {
+    color: #ff4d00;
+}
+  
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+  
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 3em;
+    border-radius: 20px;
+    max-width: 90%;
+    width: 100%;
+    box-sizing: border-box;
+}
+  
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5em;
+}
+  
+.cta-button {
+    background-color: #ff4d00;
+    color: #fff;
+    padding: 1em 2em;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+  
+.cta-button:hover {
+    background-color: #e63b00;
+}
+  
+section {
+    padding: 2em;
+    border-bottom: 1px solid #222;
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 2em auto;
+}
+  
+form input, form button {
+    padding: 1em;
+    margin: 0.5em 0;
+    border: none;
+    border-radius: 8px;
+    background-color: #1f1f1f;
+    color: #fff;
+}
+  
+form button {
+    background-color: #ff4d00;
+    cursor: pointer;
+    font-weight: bold;
+}
+  
+footer {
+    text-align: center;
+    padding: 1em;
+    background: #1e1e1e;
+    font-size: 0.9em;
+}
+  
+  /* Free Fire Themed Backgrounds */
+/* section#register {
+    background: url('https://tse3.mm.bing.net/th?id=OIP.VmMJwBLFCvP1HR0ESs3z3AHaEK&pid=Api') no-repeat center center/cover;
+    background-attachment: fixed;
+} */
+  
+/* section#bracket {
+    background: url('https://tse4.mm.bing.net/th?id=OIP.5TYcBoFy724q_ZtLGupNOQHaEK&pid=Api') no-repeat center center/cover;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0,0,0,0.7);
+} */
+  
+/* section#contact {
+    background: url('https://tse3.mm.bing.net/th?id=OIP.J3odRvXgsQ8iRErJoyOFXAHaEK&pid=Api') no-repeat center center/cover;
+    background-attachment: fixed;
+} */
+  
+section h2, section p, form label, form input, form button {
+    z-index: 2;
+    position: relative;
+}
+
+#contact {   
+  font-family: Arial, Helvetica, sans-serif;   
+}
+
+/* PRIZE SECTION */
+#prizes {
+    background: url('https://images.unsplash.com/photo-1635362518027-3901e9ae2ea7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80') no-repeat center center/cover;
+    background-attachment: fixed;
+    padding: 4em 2em;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .prize-container {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .prize-details {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2em;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(255, 77, 0, 0.6);
+    font-size: 1.2rem;
+    animation: slideUp 1.2s ease forwards;
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  
+  #prizes h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.2em;
+    animation: fadeIn 1.5s ease forwards;
+    opacity: 0;
+  }
+  
+  /* Animation Keyframes */
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive */
+@media (max-width: 768px) {
+    .prize-details {
+      padding: 1.5em;
+      font-size: 1rem;
+    }
+  
+    #prizes h2 {
+      font-size: 2rem;
+    }
+}
+  
+
+.prize-details:hover {
+    box-shadow: 0 0 40px rgba(255, 100, 0, 0.8);
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+}
+  
