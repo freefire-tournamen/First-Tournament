@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -7,15 +7,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   <style>
-<a href="thank-you.html">Go to Thank You Page</a>
-
     body {
       font-family: 'Orbitron', sans-serif;
       background-color: #0a0a0a;
       color: #f5f5f5;
       margin: 0;
       padding: 0;
-       
     }
 
     header {
@@ -52,7 +49,6 @@
     }
 
     .hero {
-      /* background: url('https://wallpapercave.com/wp/wp6830042.jpg') no-repeat center center/cover; */
       height: 100vh;
       display: flex;
       align-items: center;
@@ -143,7 +139,6 @@
       </div>
     </div>
   </section>
-  
 
   <section class="hero" id="home">
     <div class="hero-content">
@@ -157,27 +152,21 @@
     <h2>Register</h2>
     
     <form action="https://formsubmit.co/freefiretournament011@gmail.com" method="POST">
-            <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_next" value="https://freefiretournament011@gmail.com/thank-you.html">
-            <input type="hidden" name="_subject" value="🎮 New Tournament Registration!">
-          
-            <label>
-              <input type="radio" name="Entry Type" value="Solo" checked> Solo
-            </label>
- 
-            <input type="text" name="Player Name" placeholder="Player Name" required>
-            <input type="email" name="Email" placeholder="Email" required>
-            <input type="text" name="Free Fire ID" placeholder="Free Fire ID" required>
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://freefire-tournamen.github.io/First-Tournament/thank-you.html">
+      <input type="hidden" name="_subject" value="🎮 New Tournament Registration!">
+    
+      <label>
+        <input type="radio" name="Entry Type" value="Solo" checked> Solo
+      </label>
 
-            <!-- This line redirects user after submission -->
-<!--             <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html"> -->
-                <form action="thank-you.html" method="GET">
-
-            <!-- Add more fields if needed -->
-          
-            <button type="submit">Register</button>
+      <input type="text" name="Player Name" placeholder="Player Name" required>
+      <input type="email" name="Email" placeholder="Email" required>
+      <input type="text" name="Free Fire ID" placeholder="Free Fire ID" required>
+    
+      <button type="submit">Register</button>
     </form>
-          
+    
     <p id="confirmation"></p>
   </section>
 
